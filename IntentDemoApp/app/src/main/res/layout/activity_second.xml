@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Received:"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonSendResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Result" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will appear here"
+        android:textSize="18sp" />
+</LinearLayout>
